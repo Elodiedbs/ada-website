@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  <!-- Container includes both sidebar and content -->
   <div class="container">
 
     <!-- Sidebar -->
@@ -38,9 +39,9 @@
       {{ content }}
     </main>
 
-  </div>
+  </div> <!-- CLOSES .container -->
 
-  <!-- Footer -->
+  <!-- Footer MUST be outside of .container -->
   <footer class="footer">
     {% if site.github.is_project_page %}
       <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
