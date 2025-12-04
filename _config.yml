@@ -3,7 +3,13 @@ title: ADA Website IG Nobel Laureates
 description: A template website for ADA
 show_downloads: True
 navigation:
-  - title: Home
+  - title: HOME 
     url: /
-  - title: Example
-    url: example
+  - title: STORY
+    url: /
+  - title: DATASETS
+    url: /
+  - title: TEAM
+    url: /
+  - title: CONCLUSION
+    url: /
